@@ -1,5 +1,5 @@
 function deleteEmailsWithKeywords() {
-  var keywords = ["メルマガ", "購読", "ニュース"];
+  var keywords = ["特定のワード","特定のワード2"];
   var inboxThreads = GmailApp.getInboxThreads();
   processThreads(inboxThreads, keywords);
   var threads = GmailApp.search('in:trash');
